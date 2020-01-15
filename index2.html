@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap" rel="stylesheet">
+	<style>
+		body, html {height: 100%}
+.bgimg {
+background-image: linear-gradient(151deg, #42A0FF 0%, #3187EB 30%, #044EAB 62%, #003474 81%);
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+	repeat:none;
+	
+}
+		h1 {
+			font-family: 'Roboto', sans-serif;
+			font-weight:400;
+font-size: 24px;
+color: #FFFFFF;
+text-align: center;
+			margin-bottom:30px;
+		}
+		.cough-label{
+			font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+			margin-bottom:50px;
+			margin-top:10px;
+		}
+		
+.coughdigit {
+	font-family: 'Roboto', sans-serif;
+			font-weight:200;
+font-size: 110px;
+color: #FFFFFF;
+text-align: center;
+	margin-top: 100px;
+		}
+.center {
+  margin: auto;
+	text-align: center;
+  width: 400px;
+  padding: 10px;
+}	
+		.line {
+			border-bottom: 1px solid #333;
+    width: 124px;
+    margin: auto;
+    border-bottom: 1px solid #cccccc7d;
+		}
+	/* Style buttons */
+.start-btn {
+    background-color: #6BD56A;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+	box-shadow: 0px 0px 10px rgba(119, 119, 119, 0.4);
+}
+
+/* Darker background on mouse-over */
+.start-btn:hover {
+  background-color: #77e476;
+}
+.stop-btn {
+    background-color: #C0C0C0;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(119, 119, 119, 0.4);
+}
+
+/* Darker background on mouse-over */
+.stop-btn:hover {
+  background-color: #d8d8d8;
+}
+	</style>
+</head>
+
+<body class="bgimg w3-animate-opacity" >
+	<div class="center"><h1>ResApp Cough Picker Demo</h1>
+		<button class="start-btn"><i class="fa fa-microphone"></i> Start</button><button class="stop-btn"><i class="fa fa-stop-circle"></i> Stop</button><div class="coughdigit">01</div><div class="line
+"></div><div class="cough-label" >Coughs detected</div>
+	<div><img src="soundwave.png"></div></div>
+	
+</body>
+</html>
